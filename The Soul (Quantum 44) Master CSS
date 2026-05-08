@@ -1,0 +1,72 @@
+1. Create a TXT record in your DNS configuration for the following hostname: _gh-knocksstudios-e.hollywoodimaging.studio
+2. Use this code for the value of the TXT record: ffb333256e. Please note that the code will expire in 7 days.
+3. Wait until your DNS configuration changes. This could take up to 72 hours to propagate.
+/* 1. FONT IMPORTS (The Engine's Voice) */
+@import url('https://googleapis.com');
+
+:root {
+  /* 2. THE BASE 44 PALETTE (Upscale Non-Standard) */
+  --astro-noir: #1B1B1E;      /* Deep Cinematic Foundation */
+  --quantum-teal: #00B4D8;    /* Primary Tech Glow */
+  --plasma-orchid: #7B2CBF;   /* Quantum Energy Highlight */
+  --ion-mint: #2D6A4F;        /* Status/Security Green */
+  --electric-ember: #FFD60A;  /* Owner/Enterprise Gold */
+  
+  /* 3. TYPOGRAPHY CONSTANTS */
+  --font-soul: 'Playfair Display', serif;
+  --font-quantum: 'JetBrains Mono', monospace;
+  
+  /* 4. THE GLOW (SSS Simulation) */
+  --glow-header: 0 0 20px rgba(0, 180, 216, 0.5), 0 0 40px rgba(0, 180, 216, 0.2);
+}
+
+/* 5. GLOBAL STYLING */
+body {
+  background-color: var(--astro-noir);
+  color: #FFFFFF;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: var(--font-quantum);
+}
+
+/* 6. THE SOUL (Headers) */
+h1, .soul-header {
+  font-family: var(--font-soul);
+  font-weight: 900;
+  font-size: 4rem;
+  letter-spacing: -0.02em;
+  color: white;
+  text-shadow: var(--glow-header);
+  margin-bottom: 0.5rem;
+}
+
+/* 7. THE QUANTUM 44 (Data & Metrics) */
+.tech-readout, .bit-rate {
+  font-family: var(--font-quantum);
+  font-size: 0.85rem;
+  letter-spacing: 0.10em; /* The technical 'Data Tension' gap */
+  color: var(--quantum-teal);
+  text-transform: uppercase;
+}
+
+/* 8. O-RING MATERIAL BUTTON (The Forge Action) */
+.btn-forge {
+  background: var(--astro-noir);
+  border: 2px solid var(--quantum-teal);
+  color: white;
+  padding: 12px 30px;
+  border-radius: 50px; /* The O-Ring Curve */
+  font-family: var(--font-quantum);
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: inset 0 0 10px rgba(0, 180, 216, 0.3);
+}
+
+.btn-forge:hover {
+  background: var(--quantum-teal);
+  color: var(--astro-noir);
+  box-shadow: 0 0 30px var(--quantum-teal);
+}
+
